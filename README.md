@@ -1,7 +1,7 @@
 # DIP-Workshop
 
 ## program
-
+```
 import cv2
 
 # Read the image
@@ -73,6 +73,6 @@ image2_resized[row_mid:height,col_mid:width] = R4
 cv2.imshow('Image Window', image1_resized)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
-
+```
 ## output
 ![image](https://github.com/user-attachments/assets/7fa69cc2-ea5e-48d0-be3b-df7478ba0b3b)
